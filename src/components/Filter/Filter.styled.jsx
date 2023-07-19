@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const Label = styled.label`
+  margin: 0 auto 15px;
   display: block;
   font-weight: 500;
   font-size: 18px;
@@ -8,9 +9,10 @@ export const Label = styled.label`
 `;
 
 export const Input = styled.input`
-  display: block;
+  margin: 0 auto;
+  display: flex;
   padding: 6px;
-  width: calc(100% - 32px);
+  width: 575px;
   border: 0.5px solid #371506;
   border-radius: 4px;
   margin-top: 8px;
